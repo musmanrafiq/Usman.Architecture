@@ -4,6 +4,7 @@
 > These are my learnings, pragmatic decisions, trade-offs, and working proofs from building real .NET systems.
 
 ---
+Maintained by **Usman Rafiq** — https://usmancode.com
 
 ## What this repository is
 

@@ -2,7 +2,7 @@
 
 - Status: Proposed | Accepted | Superseded | Rejected
 - Date: YYYY-MM-DD
-- Owner: Usman Rafiq
+- By: Usman Rafiq
 - Related: (links to topics/samples/other ADRs)
 
 ## Context

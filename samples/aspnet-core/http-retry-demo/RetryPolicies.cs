@@ -1,7 +1,6 @@
 using System.Net;
 using Polly;
 using Polly.Extensions.Http;
-using Polly.Retry;
 
 namespace HttpRetryDemo;
 

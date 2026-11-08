@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/aspnet-core/">
+    <Project Path="aspnet-core/http-retry-demo/http-retry-demo.csproj" />
+  </Folder>
+  <Folder Name="/module-boundries/" />
+</Solution>

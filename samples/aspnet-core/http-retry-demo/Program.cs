@@ -1,4 +1,5 @@
 using HttpRetryDemo;
+using HttpRetryDemo.Library;
 
 var builder = WebApplication.CreateBuilder(args);
 

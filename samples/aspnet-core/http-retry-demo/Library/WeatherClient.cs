@@ -1,9 +1,4 @@
-namespace HttpRetryDemo;
-
-public interface IWeatherClient
-{
-    Task<string> GetForecastAsync();
-}
+namespace HttpRetryDemo.Library;
 
 /// <summary>
 /// Typed HttpClient — the retry policy is applied at registration time in Program.cs.
@@ -13,8 +8,7 @@ public sealed class WeatherClient(HttpClient http, ILogger<WeatherClient> logger
     : IWeatherClient
 {
     // Free, no-key Open-Meteo API — safe for local demos.
-    private const string ForecastUrl =
-        "v1/forecast?latitude=51.5074&longitude=-0.1278&current_weather=true";
+    private const string ForecastUrl = "v1/forecast?latitude=51.5074&longitude=-0.1278&current_weather=true";
 
     public async Task<string> GetForecastAsync()
     {
